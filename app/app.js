@@ -63,8 +63,10 @@ var i = 0;
 // On parcour les zones de cliques
 $('.clickArea').each(function() {
 
+    var Eventhandler = ('ontouchstart' in document.documentElement ? "touchstart" : "click");
+
     // Quand l'utilisateur clique sur une zone de clique
-    document.getElementsByClassName('clickArea')[i].addEventListener("touchstart", function(e) {
+    document.getElementsByClassName('clickArea')[i].addEventListener(Eventhandler, function(e) {
 
         e.preventDefault();
 
