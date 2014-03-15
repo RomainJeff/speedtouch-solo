@@ -1,0 +1,7 @@
+CACHE MANIFEST
+# v1 2013-11-12
+# SOLO VERSION
+index.html
+resources/styles/app.css
+app/jquery.js
+app/app.js

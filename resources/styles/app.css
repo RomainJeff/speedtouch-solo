@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial;
+}
+
+.clickArea {
+    width: 100%;
+    font-size: 60px;
+    color: rgba(255,255,255,0.5);
+    position: relative;
+}
+
+#playerOne {
+    background: #f1c40f;
+}
+
+#playerTwo {
+    background: #c0392b;
+    top: 50%;
+}
+
+#scorePlayerOne, #scorePlayerTwo {
+    position: absolute;
+}
+
+#overlay {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    text-align: center;
+    background: rgba(0,0,0,0.3);
+}
+
+#overlay h1 {
+    color: white;
+}
+
+button {
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    color: white;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Helvetica, Arial;
+    background: #2ecc71;
+}
+
+#tuto {
+    background: #3498db;
+}
+
+#regles {
+    display: none;
+    color: white;
+}
